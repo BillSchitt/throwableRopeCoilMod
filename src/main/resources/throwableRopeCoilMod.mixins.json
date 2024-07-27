@@ -1,0 +1,15 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "billschitt.throwableRopeCoilMod.mixin",
+    "compatibilityLevel": "JAVA_8",
+    "mixins": [
+      "BlockRopeMixin",
+      "ItemModelDispatcherMixin"
+    ],
+    "client": [
+    ],
+    "injectors": {
+        "defaultRequire": 1
+  }
+}
