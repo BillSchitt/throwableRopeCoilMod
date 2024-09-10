@@ -17,7 +17,7 @@ public class ItemModelDispatcherMixin {
     private void injectCustomRopeTexture(CallbackInfo ci) {
         ItemModelDispatcher dispatcher = (ItemModelDispatcher) (Object) this;
         ItemModelStandard ropeModel = new ItemModelStandard(Item.rope, "minecraft");
-        IconCoordinate customRopeTexture = TextureRegistry.getTexture("throwableropecoilmod:item/rope_singular");
+        IconCoordinate customRopeTexture = TextureRegistry.getTexture("throwableRopeCoilMod:item/rope_singular");
         ropeModel.icon = customRopeTexture;
         dispatcher.addDispatch(ropeModel);
     }
